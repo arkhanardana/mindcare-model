@@ -27,6 +27,8 @@ Model akan memprediksi salah satu dari status berikut:
 
 ## 🚀 Cara Menjalankan Proyek
 
+Install python on [this link](https://www.python.org/downloads/)
+
 ### 1. Clone repo & masuk ke foldernya
 
 ```bash
