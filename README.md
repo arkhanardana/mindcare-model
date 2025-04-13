@@ -16,6 +16,7 @@ API ini dibuat menggunakan **Flask** dan **RandomForestClassifier**, yang berfun
 - `satisfaction_level` (1–10)
 
 Model akan memprediksi salah satu dari status berikut:
+
 - Healthy
 - Mild Stress
 - Chronic Stress
@@ -29,5 +30,24 @@ Model akan memprediksi salah satu dari status berikut:
 ### 1. Clone repo & masuk ke foldernya
 
 ```bash
-git clone <url-repo-anda>
-cd mental-health-api
+git clone https://github.com/arkhanardana/mindcare-model.git
+cd mindcare-model
+```
+
+### 2. Install dependencies
+
+```bash
+pip install pandas scikit-learn flask flask-cors
+```
+
+### 3. Training model
+
+```bash
+python train_model.py
+```
+
+### 4. Jalankan app
+
+```bash
+python app.py
+```
